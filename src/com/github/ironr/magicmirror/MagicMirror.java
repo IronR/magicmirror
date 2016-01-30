@@ -8,6 +8,11 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import com.github.ironr.magicmirror.routes.Test;
 public class MagicMirror {
 	
+	private static MagicMirror instance;
+	
+	public Users users = new Users();
+
+
 	public MagicMirror() {
 		//Init the RESTFUL Server routes
 		initServer();
@@ -43,9 +48,15 @@ public class MagicMirror {
 		
 	}
 	
+	public static MagicMirror getInstance() {
+		if(instance == null) {
+			instance = new MagicMirror();
+		}
+		return instance;
+	}
 
 	public static void main(String[] args) throws Exception {
-		new MagicMirror();
+		instance = new MagicMirror();
 	    
 	}
 	
