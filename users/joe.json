@@ -1,0 +1,23 @@
+{
+  "name": "Joe",
+  "modules": [
+    {
+      "id": "time",
+      "position" : {
+        "x": 10,
+        "y": 10,
+      },
+      "zone": "Eastern"
+    },
+    {
+      "id": "time",
+      "position" : {
+        "x": 10,
+        "y": 10,
+      },
+      "zone": "Eastern"
+    }
+
+
+  ],
+}
