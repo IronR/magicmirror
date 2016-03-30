@@ -1,0 +1,73 @@
+{
+  "face": [
+    {
+      "attribute": {
+        "age": {
+          "range": 6,
+          "value": 29
+        },
+        "gender": {
+          "confidence": 99.8628,
+          "value": "Male"
+        },
+        "glass": {
+          "confidence": 99.6554,
+          "value": "None"
+        },
+        "pose": {
+          "pitch_angle": {
+            "value": -0.000005
+          },
+          "roll_angle": {
+            "value": -7.05733
+          },
+          "yaw_angle": {
+            "value": -0.01068
+          }
+        },
+        "race": {
+          "confidence": 99.7608,
+          "value": "White"
+        },
+        "smiling": {
+          "value": 95.0881
+        }
+      },
+      "face_id": "5d490c3155482bd8092d67135012119e",
+      "position": {
+        "center": {
+          "x": 52.8125,
+          "y": 53.275109
+        },
+        "eye_left": {
+          "x": 46.150312,
+          "y": 48.70131
+        },
+        "eye_right": {
+          "x": 58.132812,
+          "y": 46.628384
+        },
+        "height": 32.31441,
+        "mouth_left": {
+          "x": 48.044687,
+          "y": 64.448472
+        },
+        "mouth_right": {
+          "x": 58.654063,
+          "y": 63.234061
+        },
+        "nose": {
+          "x": 52.5,
+          "y": 56.528384
+        },
+        "width": 23.125
+      },
+      "tag": ""
+    }
+  ],
+  "img_height": 229,
+  "img_id": "ab912272af6916d32323062f85ac5f2a",
+  "img_width": 320,
+  "session_id": "3b7e183d8d704773b6136012672f85fe",
+  "url": null
+}
